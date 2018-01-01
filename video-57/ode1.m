@@ -1,6 +1,9 @@
 
-function your = ode1(F,t0,h,tfinal,y0)
+function yout = ode1(F,t0,h,tfinal,y0)
 
+% Reference:
+%     https://www.youtube.com/watch?v=aW-e04zwTnc&list=PLUl4u3cNGP63oTpyxCMLKt_JmB0WtSZfG&index=57&t=602s
+%
 % ODE1 A simple ODE solver
 %   yout = ode1(t0,h,tfinal,y0) uses Euler's
 %   method with fixed step size h on the interval
